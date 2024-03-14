@@ -1,0 +1,80 @@
+/* Custom Styles for Smartwatch X1 Product Page */
+
+/* Navbar */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+/* Product Images */
+#product-images {
+    margin-bottom: 20px;
+}
+
+/* Product Description */
+h2 {
+    color: #333;
+}
+
+/* Key Features List */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Buy Now Button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+// Define base colors
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+// Table styles
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border: 15px solid blue; // Border color for the table
+}
+
+// Header cell styles
+tr {
+    background-color: darkblue ; // Background color for header cells
+    color: rgb(12, 10, 10); // Text color for header cells
+    padding: 10pt;
+    text-align: center;
+}
+
+// Data cell styles
+td {
+    background-color: red($primary-color, 20%); // Background color for data cells
+    padding: 38pt;
+    text-align: center;
+    border: 12px solid navy; // Border color for data cells
+}  
+
+/* Custom styling for the footer */
+.footer {
+    color: #f1e1e1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Customize the background color */
+  .bg-dark {
+    background-color: #934242 !important;
+    
+  }
+  
+        
+
